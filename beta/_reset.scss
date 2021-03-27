@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	outline: none;
+    
+	&:focus {
+		outline: none;
+	}
+	&::-webkit-input-placeholder {
+		color: #222;
+	}
+	&::-moz-placeholder {
+		color: #222;
+	}
+}
+
+ul{
+	list-style-type: none;
+	color: #256ae5;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button{
+	padding: 1rem 2rem;
+    cursor: pointer;
+}

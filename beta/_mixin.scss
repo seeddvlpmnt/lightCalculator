@@ -1,0 +1,17 @@
+
+
+@mixin neu-shadow {
+    box-shadow: -6px -6px 9px rgba(#fff,0.6), 6px 6px 9px rgba(#000, 0.1);
+}
+
+@mixin neu-shadow-inset {
+    box-shadow: inset -6px -6px 9px rgba(#fff, 0.4), inset 6px 6px 9px rgba(#000, 0.4);
+}
+
+@mixin text-shadow {
+    text-shadow: -1px -1px 2px rgba(#fff, 0.6), 2px 2px 2px rgba(#000, 0.4);
+}
+
+@mixin border-color {
+    border-color: rgba(#000, 0.4);
+}
